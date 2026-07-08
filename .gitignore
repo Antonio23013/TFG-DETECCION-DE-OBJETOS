@@ -32,12 +32,8 @@ dataset_config.yaml
 # ------------------------------------------------------------------------------
 # 2. PESOS DE MODELOS DE DEEP LEARNING
 # ------------------------------------------------------------------------------
-# No subimos los pesos de YOLO, MobileNet o RT-DETR
-*.pt
-*.pth
-*.weights
-*.onnx
-*.engine
+# Si subimos los pesos de YOLO, MobileNet o RT-DETR
+
 
 # ------------------------------------------------------------------------------
 # 3. RESULTADOS DE ENTRENAMIENTO (LOGS Y GRÁFICAS AUTOMÁTICAS)
